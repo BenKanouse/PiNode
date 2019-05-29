@@ -1,0 +1,33 @@
+{
+  "name": "pi-node",
+  "version": "1.0.0",
+  "description": "Calculate Pi Using Monte Carlo Method",
+  "main": "pi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/pi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenKanouse/PiNode.git"
+  },
+  "keywords": [
+    "Pi",
+    "Monte",
+    "Carlo",
+    "Method",
+    "Random",
+    "Sampling"
+  ],
+  "author": "Ben Kanouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenKanouse/PiNode/issues"
+  },
+  "homepage": "https://github.com/BenKanouse/PiNode#readme",
+  "dependencies": {
+    "typescript": "^3.5.1"
+  }
+}
